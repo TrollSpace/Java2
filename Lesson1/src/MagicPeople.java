@@ -1,6 +1,7 @@
 /**
  * Created by Misha on 15.08.2018.
  */
+
 public class MagicPeople extends People implements PeopleLife {
     String name;
     int weight;
