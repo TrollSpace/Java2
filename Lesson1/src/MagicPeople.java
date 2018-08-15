@@ -34,6 +34,8 @@ public class MagicPeople extends People implements PeopleLife {
     public boolean sleep() {
         if (weight > 0) {
             return true;
-        } else return false;
+        } else {
+            return false;
+        }
     }
 }
