@@ -8,6 +8,14 @@ public class Main {
     public static void main(String[] args) {
         String[] arr = {"dog", "fish", "cat", "dog", "children", "book", "pencil", "table", "cat", "cat"};
         checkArray(arr);
+
+        PhoneBook pb = new PhoneBook();
+        pb.add("Misha", 123);
+        pb.add("Misha", 124);
+        pb.add("Gosha", 125);
+        pb.add("Sasha", 126);
+        pb.add("Lesha", 127);
+        pb.get("Misha");
     }
 
 
