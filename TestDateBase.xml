@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_91" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="base.objects.Person">
+    <void property="address">
+     <string>Ад</string>
+    </void>
+    <void property="birthday">
+     <string>Всегда</string>
+    </void>
+    <void property="fio">
+     <string>Вий</string>
+    </void>
+    <void property="phone">
+     <string>02</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="base.objects.Person">
+    <void property="address">
+     <string>Северный полюс</string>
+    </void>
+    <void property="birthday">
+     <string>31/12/1900</string>
+    </void>
+    <void property="fio">
+     <string>Дед Мороз</string>
+    </void>
+    <void property="phone">
+     <string>нет</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="base.objects.Person">
+    <void property="address">
+     <string>Туркмения</string>
+    </void>
+    <void property="birthday">
+     <string>24/05/1954</string>
+    </void>
+    <void property="fio">
+     <string>Папа</string>
+    </void>
+    <void property="phone">
+     <string>7780986</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="base.objects.Person">
+    <void property="address">
+     <string>Gorkiy</string>
+    </void>
+    <void property="birthday">
+     <string>12/12/1200</string>
+    </void>
+    <void property="fio">
+     <string>Vasya</string>
+    </void>
+    <void property="phone">
+     <string>1231243</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="base.objects.Person">
+    <void property="address">
+     <string>HJFKJ</string>
+    </void>
+    <void property="birthday">
+     <string>12/12/1200</string>
+    </void>
+    <void property="fio">
+     <string>Misha</string>
+    </void>
+    <void property="phone">
+     <string>1231243</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="base.objects.Person">
+    <void property="address">
+     <string>fjwj</string>
+    </void>
+    <void property="birthday">
+     <string>3121231</string>
+    </void>
+    <void property="fio">
+     <string>fhjkfh</string>
+    </void>
+    <void property="phone">
+     <string>eqwej</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
