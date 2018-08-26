@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="323.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="base.controllers.EditDialogController">
+   <bottom>
+      <HBox prefHeight="49.0" prefWidth="216.0" BorderPane.alignment="CENTER">
+         <children>
+                <Button fx:id="btnOk" mnemonicParsing="false" onAction="#clickOK" prefHeight="31.0" prefWidth="100.0" text="ОК">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="44.0" top="10.0" />
+               </HBox.margin>
+                </Button>
+                <Button fx:id="btnCancel" mnemonicParsing="false" onAction="#clickCancel" prefHeight="31.0" prefWidth="100.0" text="Cancel">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="47.0" right="10.0" top="10.0" />
+               </HBox.margin>
+                </Button>
+         </children>
+      </HBox>
+   </bottom>
+   <top>
+        <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="259.0" prefWidth="263.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label text="Name">
+                    <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </VBox.margin>
+                </Label>
+                <TextField fx:id="txtFIO">
+                    <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </VBox.margin>
+                </TextField>
+                <Label text="Birthday">
+                    <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </VBox.margin>
+                </Label>
+                <TextField fx:id="txtBirthday">
+                    <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </VBox.margin>
+                </TextField>
+            <Label text="Address">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="txtAddress" layoutX="15.0" layoutY="50.0">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="Telephone">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="txtPhone" layoutX="10.0" layoutY="80.0">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </TextField>
+            </children>
+            <BorderPane.margin>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="15.0" />
+            </BorderPane.margin>
+        </VBox>
+   </top>
+</BorderPane>
